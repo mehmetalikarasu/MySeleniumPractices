@@ -17,7 +17,7 @@ public class C04_GeneralPractice {
         driver.get("https://facebook.com");
         String facebookTitle = driver.getTitle();
         if (facebookTitle.equals("facebook")){
-            System.out.println("Title is facebook, Passed");
+            System.out.println("Title is "+facebookTitle+", Passed");
         }else System.out.println("Failed, Actual Title is: "+facebookTitle);
 
 
