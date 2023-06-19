@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class TestBase {
+public abstract class TestBase {
     protected WebDriver driver;
     @Before
     public void setUp() throws Exception {
@@ -29,9 +29,6 @@ public class TestBase {
             throw new RuntimeException(e);
         }
     }
-
-
-
 
 
 
